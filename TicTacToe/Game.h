@@ -98,6 +98,8 @@ class Game
         }
         if(c1 == c2 && c2 == c3 && c1 != 0)
         {
+	  std::cout << std::endl << std::endl;
+	  this->thisBoard.printBoard();
           if(this->turn == 1)
           {
             std::cout << "Victory for O's!" << std::endl;
